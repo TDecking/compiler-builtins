@@ -8,6 +8,13 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.2.15](https://github.com/TDecking/compiler-builtins/compare/libm-v0.2.14...libm-v0.2.15) - 2025-05-06
+
+### Other
+
+- Require `target_has_atomic = "ptr"` for runtime feature detection
+- Replace `super::super` with `crate::support` where possible
+
 ## [0.2.14](https://github.com/rust-lang/compiler-builtins/compare/libm-v0.2.13...libm-v0.2.14) - 2025-05-03
 
 ### Other
